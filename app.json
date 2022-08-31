@@ -1,8 +1,13 @@
 {
-    "name": "Deploy to heroku",
-    "success_url": "https://bit.ly/Raganork",
-    "stack": "container",
-    "env": {
+	"name": "Deploy 𝗽𝗿𝗶𝗻𝗰𝗲 𝗯𝗼𝘁",
+	"description": "𝗉𝗋𝗂𝗇𝖼𝖾.",
+	"keywords": [
+		"whatsapp",
+		"bot"
+	],
+	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"stack": "container",
+    "env": { 
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
@@ -11,12 +16,12 @@
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
             "required": false,
-            "value":"jid,jid"
+            "value":"https://chat.whatsapp.com/LwndLsy32cBBEBWuXbYWbA,jid"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
@@ -46,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"𝗽𝗿𝗶𝗻𝗰𝗲"                  
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -56,17 +61,17 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"254768371432"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} *Active since {uptime}*\n#button\Button 1#\n#button\Button 2#\n#button\Button 3#\n#ubutton\Url Button#\n#url\http://wa.me/918921408552?text=*Bro+big+fan+aane*#\n#ubutton\Url Button 2#\n#url\http://wa.me/918921408552?text=*Bro+big+fan+aane*#"
+            "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
             "description": "Your MD session",
