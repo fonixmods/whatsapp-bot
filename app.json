@@ -16,12 +16,12 @@
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
             "required": false,
-            "value":"jid,jid"
+            "value":"https://chat.whatsapp.com/LwndLsy32cBBEBWuXbYWbA,jid"
         },
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"𝗽𝗿𝗶𝗻𝗰𝗲"                  
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -61,12 +61,12 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"254768371432"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
